@@ -1,0 +1,33 @@
+#show_sketch{
+color:aqua !important;
+background-color: black;
+float:left;
+}
+body{
+background:steelblue;
+}
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:example;
+    margin-top:100px;
+    animation-iteration-count:infinite
+}
+@keyframes example{
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
+p{
+    padding-top:10px;
+    font-size:25px;
+}
+h1{
+    color:lightsteelblue ;
+    
+}
+#time{
+    float:left;
+}
+#score{
+    float:right;
+}
